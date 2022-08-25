@@ -74,7 +74,14 @@
             </div>
         </div>
         <div class="wrap-list-product">
-            <label>Sản Phẩm Liên Quan</label>
+
+            <div class="pc-head">
+                <div class="row">
+                    <div class="col-12">
+                        <span>Sản Phẩm Liên Quan</span>
+                    </div>
+                </div>
+            </div>
             <div class="pr-content">
                 <ul>
                     @foreach($data['related'] as $row)
