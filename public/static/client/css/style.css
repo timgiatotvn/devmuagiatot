@@ -198,7 +198,7 @@ section#box-new .view-all a{text-transform: uppercase;}
 
 /**site bar product**/
 nav#site-bar-product .wrap-site-bar-product{border: 1px solid #ddd; padding: 10px;}
-nav#site-bar-product .wrap-site-bar-product label{font-size: 15px; text-transform: uppercase; color: #fff; background: #1e73be; padding: 10px 15px; width: 100%; margin-bottom: 0;}
+nav#site-bar-product .wrap-site-bar-product label{font-size: 15px; text-transform: uppercase; color: #fff; background: #ee3525; padding: 10px 15px; width: 100%; margin-bottom: 0;}
 nav#site-bar-product .wrap-site-bar-product ul{margin-bottom: 0;}
 nav#site-bar-product .wrap-site-bar-product ul li{list-style: none; border-bottom: 1px solid #ddd; padding: 10px 0;}
 nav#site-bar-product .wrap-site-bar-product ul li .name-sp a{font-size: 14px; font-weight: bold;}

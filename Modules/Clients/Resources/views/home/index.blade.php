@@ -193,40 +193,6 @@
             </div>
         </section>
     @endif
-    <section id="box-new">
-        <div class="nr-head">
-            <h2>{{ !empty($data['cat_kienthuc']->title) ? $data['cat_kienthuc']->title : '' }}</h2>
-            <p>{{ !empty($data['cat_kienthuc']->description) ? $data['cat_kienthuc']->description : '' }}</p>
-        </div>
-        <div class="nr-content">
-            <ul>
-                @foreach($data['kienthuc'] as $row)
-                    <li>
-                        <div class="pr-item">
-                            <a href="{{ route('client.post.show', ['slug' => $row->slug]) }}"
-                               title="{{ $row->title }}">
-                                <img src="{{ \App\Helpers\Helpers::renderThumb($row->thumbnail, 'list_new') }}"
-                                     title="{{ $row->title }}">
-                            </a>
-                            <div class="name-title">
-                                <a href="{{ route('client.post.show', ['slug' => $row->slug]) }}"
-                                   title="{{ $row->title }}">
-                                    {{ $row->title }}
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                @endforeach
-            </ul>
-        </div>
-        <div class="view-all">
-            <a href="{{ !empty($data['cat_kienthuc']->id) ? route('client.category.index', ['slug' => $data['cat_kienthuc']->slug]) : '' }}"
-               title="Xem tất cả">
-                Xem tất cả
-            </a>
-        </div>
-    </section>
-
     @if(!empty($arr2))
         <section>
             <div class="wrap-slide slidehome" style="display: none;">
@@ -271,40 +237,6 @@
             </div>
         </section>
     @endif
-
-    <section id="box-new">
-        <div class="nr-head">
-            <h2>{{ !empty($data['cat_tintuc']->title) ? $data['cat_tintuc']->title : '' }}</h2>
-            <p>{{ !empty($data['cat_tintuc']->description) ? $data['cat_tintuc']->description : '' }}</p>
-        </div>
-        <div class="nr-content">
-            <ul>
-                @foreach($data['news'] as $row)
-                    <li>
-                        <div class="pr-item">
-                            <a href="{{ route('client.post.show', ['slug' => $row->slug]) }}"
-                               title="{{ $row->title }}">
-                                <img src="{{ \App\Helpers\Helpers::renderThumb($row->thumbnail, 'list_new') }}"
-                                     title="{{ $row->title }}">
-                            </a>
-                            <div class="name-title">
-                                <a href="{{ route('client.post.show', ['slug' => $row->slug]) }}"
-                                   title="{{ $row->title }}">
-                                    {{ $row->title }}
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                @endforeach
-            </ul>
-        </div>
-        <div class="view-all">
-            <a href="{{ !empty($data['cat_tintuc']->id) ? route('client.category.index', ['slug' => $data['cat_tintuc']->slug]) : '' }}"
-               title="Xem tất cả">
-                Xem tất cả
-            </a>
-        </div>
-    </section>
 
 @endsection
 
