@@ -418,34 +418,3 @@ section.box-product .pr-head label{
     border-bottom: none;
     text-transform: uppercase;
 }
-section#wrap-product-category .pc-head span{
-    background: #386384;
-    padding: 0 8px 0 12px;
-    height: 100%;
-    position: relative;
-    margin: 0;
-    float: left;
-    -webkit-border-radius: 4px 0 0 4px;
-    -moz-border-radius: 4px 0 0 4px;
-    color: #FFF;
-    line-height: 45px;
-    font-size: 16px;
-    border-bottom: none;
-    text-transform: uppercase;
-}
-section#wrap-product-category .pc-head span:after{
-    content: " ";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 22px solid transparent;
-    border-left: 15px solid;
-    border-left-color: #386384;
-    border-right: 0 solid transparent;
-    border-bottom: 23px solid transparent;
-    position: absolute;
-    top: 0;
-    right: -15px;
-}

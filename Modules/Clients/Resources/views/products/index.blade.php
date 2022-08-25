@@ -2,15 +2,8 @@
 
 @section('content')
     <section id="wrap-product-category">
-
         <div class="pc-head">
-            <div class="row">
-                <div class="col-8">
-                    <span>{{ !empty($data['search_title']) ? $data['search_title'] : $data['category']->title }}</span>
-                </div>
-            </div>
-        </div>
-        <div class="pc-head">
+            <h1>{{ !empty($data['search_title']) ? $data['search_title'] : $data['category']->title }}</h1>
         </div>
         @if(!empty($data['category']->description))
         <div class="ctct mb-4">
