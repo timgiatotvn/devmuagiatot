@@ -1,7 +1,7 @@
 @extends('clients::layouts.new')
 
 @section('content')
-    <section id="box-new-list">
+    <section style="padding:0 10px" id="box-new-list">
         <div class="pc-head">
             <div class="row">
                 <div class="col-12">
