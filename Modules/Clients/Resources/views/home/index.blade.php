@@ -32,7 +32,6 @@
     </section> --}}
     <section class="box-product">
         <div class="pr-head">
-
             <div class="row">
                 <div class="col-8">
                     <label>TÌM KIẾM NHIỀU</label>
