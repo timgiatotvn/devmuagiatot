@@ -32,7 +32,12 @@
     </section> --}}
     <section class="box-product">
         <div class="pr-head">
-            <label>TÌM KIẾM NHIỀU</label>
+
+            <div class="row">
+                <div class="col-8">
+                    <label>TÌM KIẾM NHIỀU</label>
+                </div>
+            </div>
         </div>
         <div class="pr-content">
             <ul>
@@ -81,7 +86,8 @@
             <div class="pr-head">
                 <div class="row">
                     <div class="col-8">
-                        <label>{{$cate['name']}}</label></div>
+                        <label>{{$cate['name']}}</label>
+                    </div>
                     <div class="col-4 text-right show_all_product">
                         <a href="{{ route('client.category.index', ['slug' => $cate['slug']])}}"
                            title="Xem tất cả">Xem tất cả &raquo;
