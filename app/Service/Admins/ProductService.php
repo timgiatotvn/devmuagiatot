@@ -57,20 +57,21 @@ class ProductService
         try {
             if (isset($_data['_token'])) unset($_data['_token']);
             unset($_data['proengsoft_jsvalidation']);
-            $result = $this->mapProductsToArticle($_data['keyword_suggest']);
+//            $result = $this->mapProductsToArticle($_data['keyword_suggest']);
+//            dd($_data);
             $db = array_merge($_data, [
                 'description' => !empty($_data['description']) ? $_data['description'] : '',
-                //'slug' => !empty($_data['title']) ? Str::slug($_data['title'], '-') : '',
+                'slug' => !empty($_data['title']) ? Str::slug($_data['title'], '-') : '',
                 'slug' => !empty($_data['slug']) ? $_data['slug'] : (!empty($_data['title']) ? Str::slug($_data['title'], '-') : ''),
                 'admin_id' => Auth::guard(Helpers::renderGuard())->user()->id,
                 'category_multi' => !empty($_data['category_multi']) ? '|' . implode('|', $_data['category_multi']) . '|' : '',
-                'type' => $this::TYPE[1],
-                'keyword_suggest_map_crawler' => $result['data'],
-                'website_map' => $result['website_map'],
-                'price' => $result['price_min'],
-                'price_root' => $result['price_min'],
-                'count_suggest' => $result['total'],
-                'thumbnail_cr' => $result['thumbnail'],
+                'type' => $this::TYPE[0],
+//                'keyword_suggest_map_crawler' => $_data['data'],
+//                'website_map' => $_data['website_map'],
+                'price' => $_data['price'],
+                'price_root' => $_data['price_root'],
+//                'count_suggest' => $_data['total'],
+                'thumbnail_cr' => $_data['thumbnail'],
                 'choose_1' => 0,
                 'choose_2' => 0,
                 'choose_3' => 0,
