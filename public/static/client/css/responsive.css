@@ -11,7 +11,7 @@
     header#header form.wrap-form-search{margin: 0 auto; position: relative;}
     header#header .wrap-user i{display: none;}
     header#header .wrap-user{float: none; margin: 0 auto; padding: 10px 0 0 0;}
-    header#header form.wrap-form-search button{position: absolute; right: 0;width: 15%}
+    header#header form.wrap-form-search button{position: absolute; right: 0;width: 20%}
     .fix-icon-right form.wrap-form-search input{width: 72%;}
 
     .wrap-menu{margin-bottom: 1px;}
