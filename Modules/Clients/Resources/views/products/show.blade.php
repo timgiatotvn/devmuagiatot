@@ -56,7 +56,7 @@
             <div class="box-tab">
                 <!-- tab -->
                 <ul class="nav nav-pills tab-fix">
-                    <li class="nav-item">
+                    <li class="nav-item pxn-custom-arrow">
                         <a href="#tab1" data-toggle="tab" class="nav-link active">Nội dung</a>
                     </li>
                     {{--                <li class="nav-item"> <a href="#tab2" data-toggle="tab" class="nav-link">Tab đầu tiên</a></li>--}}

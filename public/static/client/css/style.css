@@ -449,6 +449,38 @@ section.box-product .pr-head label{
     top: 0;
     right: -15px;
 }
+ .pxn-custom-arrow a{
+
+     background: #1e73be;
+     padding: 0 8px 0 12px;
+     height: 100%;
+     position: relative;
+     margin: 0;
+     float: left;
+     -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+     color: #FFF;
+     line-height: 36px;
+     font-size: 16px;
+     border-bottom: none;
+     text-transform: uppercase;
+ }
+ .pxn-custom-arrow a:after{
+     content: " ";
+     display: block;
+     width: 0;
+     height: 0;
+     margin-left: 2px;
+     vertical-align: middle;
+     border-top: 18px solid transparent;
+     border-left: 15px solid;
+     border-left-color: #1e73be;
+     border-right: 0 solid transparent;
+     border-bottom: 18px solid transparent;
+     position: absolute;
+     top: 0;
+     right: -15px;
+ }
  .pc-head{
      background: #efefef;
      margin-bottom: 35px;
