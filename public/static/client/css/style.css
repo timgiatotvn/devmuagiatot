@@ -92,7 +92,7 @@ section#detail-product .wrap-product-show{padding: 25px 0 0 0;}
 section#detail-product .wrap-product-show .box-tab{}
 section#detail-product .wrap-product-show .box-tab .tab-fix{border: 1px solid #ddd;}
 section#detail-product .wrap-product-show .box-tab .nav-pills .nav-link{border-radius: 0; font-size: 15px; text-transform: uppercase;}
-section#detail-product .wrap-product-show .box-tab .nav-pills .nav-link.active, section#detail-product .wrap-product-show .box-tab .nav-pills .show>.nav-link{background: #1e73be;}
+section#detail-product .wrap-product-show .box-tab .nav-pills .nav-link.active, section#detail-product .wrap-product-show .box-tab .nav-pills .show>.nav-link{background: #386384;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
 section#detail-product .wrap-product-show .box-tab .tab-content{padding: 20px 0 20px 0;}
 .ctct{line-height: 23px; font-size: 15px;}
 .ctct img{width: inherit !important; max-width: 100% !important;}
@@ -450,8 +450,7 @@ section.box-product .pr-head label{
     right: -15px;
 }
  .pxn-custom-arrow a{
-
-     background: #1e73be;
+     background: #386384;
      padding: 0 8px 0 12px;
      height: 100%;
      position: relative;
@@ -474,7 +473,7 @@ section.box-product .pr-head label{
      vertical-align: middle;
      border-top: 18px solid transparent;
      border-left: 15px solid;
-     border-left-color: #1e73be;
+     border-left-color: #386384;
      border-right: 0 solid transparent;
      border-bottom: 18px solid transparent;
      position: absolute;
@@ -485,3 +484,9 @@ section.box-product .pr-head label{
      background: #efefef;
      margin-bottom: 35px;
  }
+section#detail-product .wrap-product-show .box-tab .tab-fix{
+    background: #efefef;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
