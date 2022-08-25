@@ -14,7 +14,7 @@
             <div class="col-12 col-md-7 col-lg-7 col-xl-7">
                 <form method="get" action="{{ route('client.category.search') }}" class="wrap-form-search">
                     <input type="text" name="keyword" value="{{ !empty($_GET['keyword']) ? $_GET['keyword'] : '' }}" class="form-control" placeholder="Nhập từ khoá sản phẩm cần tìm giá..."/>
-                    <button type="submit" class="btn btn-primary mb-2">
+                    <button style="width: 20%" type="submit" class="btn btn-primary mb-2">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
                 </form>

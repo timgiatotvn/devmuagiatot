@@ -280,8 +280,8 @@ div.ddsmoothmobile ul li a:hover {
 }
 
 .scroll-mobile .animateddrawer {
-    left: inherit !important;
-    right: 10px;
+    /*left: inherit !important;*/
+    /*right: 10px;*/
 }
 
 .animateddrawer.open:before { /* style when .open class is added to button */

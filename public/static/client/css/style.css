@@ -384,7 +384,7 @@ footer#footer .ft-one .ft-content .ftct p{font-size: 15px; line-height: 30px;}
 
 footer#footer .ft-two{background: #222; padding: 15px 0; color: #fff;}
 
-.fix-icon-right form.wrap-form-search{overflow: hidden; width: 80%; padding: 10px 0 10px 0; margin: 0 0 0 10px;}
+.fix-icon-right form.wrap-form-search{overflow: hidden; width: 80%; padding: 10px 0 10px 0; margin: 0 auto}
 .fix-icon-right form.wrap-form-search input{width: 80%; margin-bottom: 0; float: left; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; font-size: 14px; border: 0 !important; padding-top: 23px; padding-bottom: 23px; padding-left: 25px;}
 .fix-icon-right form.wrap-form-search button{border-radius: 0; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-size: 20px; background: #ee3525; border: 0 !important; height: 46px; width: 60px; margin-bottom: 0 !important;}
 section.box-product .pr-head label:after{
