@@ -2,8 +2,12 @@
 
 @section('content')
     <section id="box-new-list">
-        <div class="nrl-head">
-            <h1>{{ $data['category']->title }}</h1>
+        <div class="pc-head">
+            <div class="row">
+                <div class="col-12">
+                    <span>{{ $data['category']->title }}</span>
+                </div>
+            </div>
         </div>
         @if(!empty($data['category']->description))
             <div class="ctct mb-4">
